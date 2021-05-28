@@ -1,14 +1,11 @@
 package br.com.digitalhouse.exerciciosSpring.entrypointcontroller;
 
-import br.com.digitalhouse.exerciciosSpring.dataprovider.repository.entitys.HouseInfo;
 import br.com.digitalhouse.exerciciosSpring.domain.entitys.House;
 import br.com.digitalhouse.exerciciosSpring.usecase.model.HouseInfoUseCase;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
-import java.net.URI;
 
 @RequestMapping("/houseinfo")
 @RestController
