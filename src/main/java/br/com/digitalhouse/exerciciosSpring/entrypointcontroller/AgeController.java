@@ -18,5 +18,4 @@ public class AgeController {
     public int getAge (@PathVariable("day") int day, @PathVariable("month") int month, @PathVariable("year") int year) {
         return ageUseCase.calculateAge(day,month,year);
     }
-
 }

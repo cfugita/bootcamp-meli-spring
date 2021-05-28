@@ -1,15 +1,15 @@
 package br.com.digitalhouse.exerciciosSpring.usecase.impl;
 
 import br.com.digitalhouse.exerciciosSpring.usecase.model.AgeUseCase;
-import br.com.digitalhouse.exerciciosSpring.domain.gateways.AgeGetaway;
+import br.com.digitalhouse.exerciciosSpring.domain.gateways.AgeGateway;
 import org.springframework.stereotype.Service;
 
 @Service
 public class AgeUseCaseImpl implements AgeUseCase {
 
-    private final AgeGetaway ageGateway;
+    private final AgeGateway ageGateway;
 
-    public AgeUseCaseImpl(AgeGetaway ageGateway) { this.ageGateway = ageGateway; }
+    public AgeUseCaseImpl(AgeGateway ageGateway) { this.ageGateway = ageGateway; }
 
     @Override
     public int calculateAge(int day, int month, int year) {
