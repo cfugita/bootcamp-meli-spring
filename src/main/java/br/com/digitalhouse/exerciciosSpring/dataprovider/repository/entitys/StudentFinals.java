@@ -1,22 +1,19 @@
 package br.com.digitalhouse.exerciciosSpring.dataprovider.repository.entitys;
 
+import br.com.digitalhouse.exerciciosSpring.domain.entitys.Student;
+import br.com.digitalhouse.exerciciosSpring.domain.entitys.Subject;
+
+import java.util.List;
+
 public class StudentFinals {
-    private String name;
     private String message;
     private double averageGrade;
+    private Student student;
 
-    public StudentFinals(String name, String message, double averageGrade) {
-        this.name = name;
+    public StudentFinals(String message, double averageGrade, Student student) {
         this.message = message;
         this.averageGrade = averageGrade;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+        this.student = student;
     }
 
     public String getMessage() {
@@ -34,4 +31,13 @@ public class StudentFinals {
     public void setAverageGrade(double averageGrade) {
         this.averageGrade = averageGrade;
     }
+
+    public Student getStudent() {
+        return student;
+    }
+
+    public void setStudent(Student student) {
+        this.student = student;
+    }
+
 }

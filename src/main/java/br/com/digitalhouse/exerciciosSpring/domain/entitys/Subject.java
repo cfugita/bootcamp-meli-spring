@@ -1,10 +1,10 @@
 package br.com.digitalhouse.exerciciosSpring.domain.entitys;
 
-public class ClassCollege {
+public class Subject {
     private String name;
     private double grade;
 
-    public ClassCollege(String name, double grade) {
+    public Subject(String name, double grade) {
         this.name = name;
         this.grade = grade;
     }

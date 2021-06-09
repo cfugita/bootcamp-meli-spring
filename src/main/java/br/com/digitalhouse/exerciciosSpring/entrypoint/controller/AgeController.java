@@ -1,4 +1,4 @@
-package br.com.digitalhouse.exerciciosSpring.entrypointcontroller;
+package br.com.digitalhouse.exerciciosSpring.entrypoint.controller;
 
 import br.com.digitalhouse.exerciciosSpring.usecase.model.AgeUseCase;
 import org.springframework.web.bind.annotation.GetMapping;

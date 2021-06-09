@@ -1,4 +1,4 @@
-package br.com.digitalhouse.exerciciosSpring.entrypointcontroller;
+package br.com.digitalhouse.exerciciosSpring.entrypoint.controller;
 
 import br.com.digitalhouse.exerciciosSpring.domain.entitys.House;
 import br.com.digitalhouse.exerciciosSpring.usecase.model.HouseInfoUseCase;

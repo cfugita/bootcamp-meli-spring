@@ -4,11 +4,11 @@ import java.util.List;
 
 public class Student {
     private String name;
-    private List<ClassCollege> classColleges;
+    private List<Subject> subjects;
 
-    public Student(String name, List<ClassCollege> classColleges) {
+    public Student(String name, List<Subject> subjects) {
         this.name = name;
-        this.classColleges = classColleges;
+        this.subjects = subjects;
     }
 
     public String getName() {
@@ -19,11 +19,11 @@ public class Student {
         this.name = name;
     }
 
-    public List<ClassCollege> getClasses() {
-        return classColleges;
+    public List<Subject> getSubjects() {
+        return subjects;
     }
 
-    public void setClasses(List<ClassCollege> classColleges) {
-        this.classColleges = classColleges;
+    public void setSubjects(List<Subject> subjects) {
+        this.subjects = subjects;
     }
 }
